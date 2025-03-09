@@ -169,7 +169,7 @@ class _ResultState extends State<Result> {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisAlignment: MainAxisAlignment.center,
                             mainAxisSize: MainAxisSize.min,
                             children: [
@@ -181,7 +181,7 @@ class _ResultState extends State<Result> {
                           SizedBox(width: AppDimens.d56),
                           Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(wrong.toString(), style: AppTextStyles.zero),
